@@ -130,6 +130,9 @@ a:hover {
 	margin-top: 10px;
 }
 
+#intro-inner p{
+	line-height: 1.5;
+}
 
 .bl-main {
 	position: absolute;
