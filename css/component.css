@@ -227,7 +227,10 @@ a:hover {
 	font-size: 1.8em;
 	letter-spacing: 2px;
 	font-weight: 700;
-	text-transform: uppercase;
+	text-transform: capitalize;
+	font-family: "crete-round",sans-serif;
+	font-style: normal;
+	font-weight: 400;
 }
 
 .bl-icon {
