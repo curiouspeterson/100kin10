@@ -120,6 +120,14 @@ a:hover {
 	left:-25%;
 }
 
+#intro-inner h3 {
+font-size: 40px;
+font-family: "crete-round",sans-serif;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
+}
+
 
 .bl-main {
 	position: absolute;
