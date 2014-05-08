@@ -151,13 +151,14 @@ a:hover {
 .bl-main > section:first-child {
 	top: 0;
 	left: 0;
-	background: #F4F2D9;
+		background: #EC9CA8;
+
 }
 
 .bl-main > section:nth-child(2) {
 	top: 0;
 	left: 50%;
-	background: #F7C79A;
+	background: #F4F2D9;
 }
 
 .bl-main > section:nth-child(3) {
@@ -169,36 +170,36 @@ a:hover {
 .bl-main > section:nth-child(4) {
 	top: 50%;
 	left: 50%;
-	background: #EC9CA8;
+	background: #F7C79A;
 }
 
 .section-1 {
 	top: 0;
 	left: 0;
-	background: #F06060;
+	background: #EC9CA8;
 }
 
 .section-2 {
 	top: 0;
 	left: 50%;
-	background: #F7C79A;
+	background: #F4F2D9;
 }
 
 .section-3 {
 	top: 50%;
 	left: 0;
-	background: #72CCA7;
+	background: #B1E6F8;
 }
 
 .section-4 {
 	top: 50%;
 	left: 50%;
-	background: #10A296;
+	background: #F7C79A;
 }
 
-.section-1 .bl-box h2{
+.section-2 .bl-box h2{
 	color:#E15B70;
-	font-size:30px;
+
 }
 
 
@@ -521,39 +522,43 @@ div.bl-panel-items > div.bl-hide-current-work {
 }
 
 .bl-main > section:first-child.bl-expand {
-	background: #f4f0d7;
+	background: #EC9CA8;
 }
 .bl-main > section:nth-child(2).bl-expand {
-	background: #F7C79A;
+	background: #f4f0d7;
+	
 
 }
 .bl-main > section:nth-child(3).bl-expand {
 	background: #B1E6F8;
 }
 .bl-main > section:nth-child(4).bl-expand {
-	background: #EC9CA8;
+	background: #F7C79A;
+	
 }
 
 .bl-main > .section-1.bl-expand {
-		background: #f4f0d7
+	background: #EC9CA8;	
 }
 .bl-main > .section-2.bl-expand {
-	background: #F7C79A;
+	background: #f4f0d7;
+
 
 }
 .bl-main > .section-3.bl-expand {
 	background: #B1E6F8;
 }
 .bl-main > .section-4.bl-expand {
-	background: #EC9CA8;
+	background: #F7C79A;
+	
 }
 
 .section-1.bl-expand .bl-content-inner{
-		background: #f4f0d7;
+		background: #EC9CA8;
 }
 
 .section-2.bl-expand .bl-content-inner{
-		background: #F7C79A;
+		background: #f4f0d7;
 }
 
 .section-3.bl-expand .bl-content-inner{
@@ -561,7 +566,7 @@ div.bl-panel-items > div.bl-hide-current-work {
 }
 
 .section-4.bl-expand .bl-content-inner{
-		background: #EC9CA8;
+		background: #F7C79A;
 }
 
 .section-1 .bl-background{
