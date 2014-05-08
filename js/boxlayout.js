@@ -8,6 +8,9 @@
  * Copyright 2013, Codrops
  * http://www.codrops.com
  */
+
+
+
 var Boxlayout = (function() {
 
 	var $el = $( '#bl-main' ),
@@ -43,13 +46,9 @@ var Boxlayout = (function() {
 	}
 	
 	
-	
-	
-	
-	
 
 	function initEvents() {
-		
+		heightControl();
 		$sections.each( function() {
 			
 			var $section = $( this );
@@ -175,6 +174,16 @@ var Boxlayout = (function() {
 		});
 
 	}
+	
+	$(window).resize(function(event) {
+		heightControl();
+	});
+	
+	function heightControl() {
+		var quarterHeight = $('.bl-box').height() *.75;
+		$('.bl-box img').css('max-height', quarterHeight);		
+	}
+	
 	
 	
 	function navigate(dir) {
