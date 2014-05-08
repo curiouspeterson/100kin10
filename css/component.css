@@ -707,5 +707,14 @@ and (max-device-width : 480px){
 	font-size: 20px;
 	}
 	
+	.bl-content p {
+	font-size: 15px;
+	line-height: 1.6;
+	}
+	
+	.bl-content h4 {
+		font-size: 18px;
+	}
+	
 }
 
