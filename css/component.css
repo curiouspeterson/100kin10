@@ -283,7 +283,7 @@ a:hover {
 }
 
 .bl-main > section .bl-icon-close {
-	position: absolute;
+	position: fixed;
 	top: 20px;
 	right: 20px;
 	cursor: pointer;
